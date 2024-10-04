@@ -1,0 +1,10 @@
+{
+    "build": {
+      "command": "mvn clean package -DskipTests", 
+      "output": "target/java-servlet-app-1.0-SNAPSHOT.war" 
+    },
+    "start": {
+      "command": "java -jar /usr/local/tomcat/webapps/java-servlet-app-1.0-SNAPSHOT.war" 
+    }
+  }
+  
